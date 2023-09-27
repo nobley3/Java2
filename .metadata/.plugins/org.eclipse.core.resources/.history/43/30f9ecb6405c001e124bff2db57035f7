@@ -1,0 +1,27 @@
+package java2prj1.lamda.practice;
+
+import java.util.function.Consumer;
+
+public class Consumer_shopping {
+
+	public static void main(String[] args) {
+		 
+		Consumer<Integer> shopping = budget->{
+			
+			int rummo = 3880;
+			int source = 4980;
+			int shrimp = 14940;
+			int pepper = 6000;
+			int bacon = 6990;
+			
+			int sum=0;
+			
+			for(int i=1;i<=budget;i++) {
+				sum+=i;
+			}
+			System.out.println(sum);
+		};
+		shopping.accept(30000);
+	}
+
+}

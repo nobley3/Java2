@@ -1,0 +1,31 @@
+package java2prj1.lamda;
+
+import java.util.function.Supplier;
+
+/*
+interface Supplier<T>{
+	T get();
+}
+*/
+public class SupplierTest {
+
+	public static void main(String[] args) {
+//		int -> Integer
+//		double -> Double
+		
+		Supplier<Integer> s1= ()-> (int)(Math.random()*5);
+		int result = s1.get();
+		System.out.println(result);
+		
+		Supplier<String> s2 = ()->{
+			
+			int result2 = (int)(Math.random()*2);
+			if(result2 == 0) {
+				return "좋다";
+			}else {
+				return "더 좋다";
+			}
+		};
+	}
+
+}

@@ -1,0 +1,37 @@
+package java2prj1.lamda;
+
+import java.util.function.Predicate;
+
+/*
+interface Predicate<T>{
+	Boolean test(T t);
+}
+*/
+public class PredicateTest {
+
+	public static void main(String[] args) {
+
+		Predicate<Integer> p1 = (su) -> {
+
+			if (su % 2 == 0) {
+				return true;
+			} else {
+				return false;
+			}
+		};
+		Boolean result = p1.test(2);
+		System.out.println(result);
+
+//		
+//		stop인지 판별
+		Predicate<String> p2 = (str) -> {
+
+			if (str.equalsIgnoreCase("STOP")) {
+				return true;
+			} else {
+				return false;
+			}
+		};
+	}
+
+}

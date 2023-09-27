@@ -1,0 +1,21 @@
+package java2prj1.generic.practice;
+
+public class FoodBoxTest {
+
+	public static void main(String[] args) {
+		
+		FoodBox<Food> f = new FoodBox();
+		f.add(new Menu());
+		System.out.println(f);
+		FoodBox<Menu2> m2 = new FoodBox();
+	//	FoodBox<Toy> t = new FoodBox();
+		
+		
+		ToyBox<Toy>  d= new ToyBox<>();
+		ToyBox<Food>  a= new ToyBox<>();
+		
+		
+		
+	}
+
+}

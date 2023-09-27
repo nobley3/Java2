@@ -1,0 +1,16 @@
+package java2prj1.generic.practice;
+
+public class Menu extends FoodBox{
+
+	String menu = "봉골레파스타";
+
+	@Override
+	public String toString() {
+		return "Food [menu=" + menu + "]";
+	}
+	
+}
+
+c
+
+

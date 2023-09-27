@@ -1,0 +1,38 @@
+package java2prj1.lamda;
+
+@FunctionalInterface
+interface multiInterface{
+	int multi(int a, int b);
+}
+public class YejinInterface {
+
+	public static void main(String[] args) {
+		
+
+// 		1. 
+		
+		
+		
+//		2.
+		
+		multiInterface m2 = new multiInterface() {
+
+			@Override
+			public int multi(int a, int b) {
+				// TODO Auto-generated method stub
+				return a*b;
+			}};
+			
+			
+		
+//		3.
+		
+		multiInterface m = (a,b)-> a*b;
+		int result2 = m.multi(4, 2);
+		System.out.println(result2);
+	
+		 
+		
+	}
+
+}

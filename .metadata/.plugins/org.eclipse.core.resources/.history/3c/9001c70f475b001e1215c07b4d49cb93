@@ -1,0 +1,29 @@
+package java2prj1.interfaceEx.myarrys;
+
+import java.util.Arrays;
+
+public class ScoreTest3 {
+
+	public static void main(String[] args) {
+
+		Score2[] list = new Score2[4];
+
+		list[0] = new Score2(100, 90);
+		list[1] = new Score2(80, 99);
+		list[2] = new Score2(99, 87);
+		list[3] = new Score2(70, 60);
+
+//		객체배열 출력
+
+		for (Score2 score : list) {
+			System.out.println(score);
+		}
+		
+		MyArrays.sort(list);
+
+		System.out.println("정렬후 ==>");
+		for (Score2 score : list) {
+			System.out.println(score2);
+		}
+	}
+}

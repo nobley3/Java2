@@ -1,0 +1,18 @@
+package java2prj1.day3.stream_practice;
+
+import java.util.Arrays;
+
+public class StringsTest {
+
+	public static void main(String[] args) {
+	
+		String[] food = {"마라탕","치킨","피자","파스타"};
+		Arrays.sort(food);
+		
+		for(String s : food) {
+			System.out.println(s);
+		}
+
+	}
+
+}

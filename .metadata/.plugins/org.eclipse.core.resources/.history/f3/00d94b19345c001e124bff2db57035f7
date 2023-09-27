@@ -1,0 +1,19 @@
+package java2prj1.lamda;
+
+import java.util.function.Consumer;
+
+/*
+interface Consumer<T>{
+		void accept(T t);
+}
+*/
+public class ConsumerTest {
+
+	public static void main(String[] args) {
+		
+		Consumer<String> c = str -> System.out.println("진짜"+str);
+		c.accept("람다좋아요");
+		
+	}
+
+}

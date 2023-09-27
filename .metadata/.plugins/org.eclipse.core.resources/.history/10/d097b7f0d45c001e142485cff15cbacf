@@ -1,0 +1,13 @@
+package Bi_practice;
+
+public class BiConsumer {
+
+	public static void main(String[] args) {
+	 
+		BiConsumer<Integer,Integer> add = (a,b)-> s
+			 
+		 
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package Bi_practice;
+
+import java.util.function.BiPredicate;
+
+public class BiPredicate_p {
+
+	public static void main(String[] args) {
+		
+
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package java2prj1.lamda;
+
+public class A {
+
+	public void hi() {
+		System.out.println("hi");
+	}
+}

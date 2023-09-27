@@ -1,0 +1,24 @@
+package Bi_practice;
+
+import java.util.ArrayList;
+import java.util.function.BiConsumer;
+
+public class BiConsumer_p {
+
+	public static void main(String[] args) {
+	 
+		BiConsumer<Integer,Integer> add = (a,b) -> System.out.println(a+b);
+		add.accept(10, 20); //30
+		
+		
+		BiConsumer<String, Integer> cart = (a,b) -> {
+			
+			String[] item = {"포카리","커피우유","게토레이"};
+			int[] price = {2000,1500,1300};
+			
+			
+		};
+		 
+	}
+
+}

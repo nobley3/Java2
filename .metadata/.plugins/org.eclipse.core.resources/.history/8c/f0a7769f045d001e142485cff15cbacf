@@ -1,0 +1,15 @@
+package java2prj1.day3.stream_practice;
+
+import java.util.ArrayList;
+
+public class CunstomerTest {
+
+	public static void main(String[] args) {
+	 
+
+		ArrayList<Customer> c = new ArrayList<>();
+		c.add("d","d","d");
+		
+	}
+
+}

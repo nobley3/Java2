@@ -1,0 +1,18 @@
+package java2prj1.day3.stream;
+
+import java.util.stream.IntStream;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+		
+		IntStream intStream = IntStream.range(1, 10);
+		intStream.skip(3).limit(5).forEach(num->System.out.println(num)); //3개 건너뛰어
+		
+//		중복된 것 제거
+		IntStream intStream2 = IntStream.of(1,2,2,3,4,4,5,6,7);
+		intStream2.distinct().forEach(num->System.out.print(num));
+
+	}
+
+}

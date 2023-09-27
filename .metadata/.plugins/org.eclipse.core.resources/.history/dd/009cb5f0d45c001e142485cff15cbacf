@@ -1,0 +1,13 @@
+package Bi_practice;
+import java.util.function.BiConsumer;
+public class BiConsumer {
+
+	public static void main(String[] args) {
+	 
+		BiConsumer<Integer,Integer> add = (a,b)->
+			 
+		 
+
+	}
+
+}

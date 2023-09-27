@@ -1,0 +1,17 @@
+package java2prj1.day3.lamda;
+
+import java.util.Arrays;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Runnable r = ()-> System.out.println("람다시작");
+		
+		Runnable r2 = ()-> {
+			String[] 할일 = {"산책하기","람다식연습2개","매서드연습"};
+		};
+		System.out.println(Arrays.toString(할일));
+	}
+
+}

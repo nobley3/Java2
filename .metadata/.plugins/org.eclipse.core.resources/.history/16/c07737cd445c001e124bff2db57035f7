@@ -1,0 +1,10 @@
+package java2prj1.lamda.practice;
+
+public class Supplier_cooking {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

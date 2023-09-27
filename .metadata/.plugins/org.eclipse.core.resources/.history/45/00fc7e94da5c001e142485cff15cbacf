@@ -1,0 +1,15 @@
+package Bi_practice;
+
+import java.util.function.BiFunction;
+
+public class BiFunction_p {
+
+	public static void main(String[] args) {
+		
+		BiFunction<Integer, Integer, String> func = (x,y) -> Integer.toString(x*y);
+		String result = func.apply(20, 5);
+		System.out.println(result); //100
+
+	}
+
+}

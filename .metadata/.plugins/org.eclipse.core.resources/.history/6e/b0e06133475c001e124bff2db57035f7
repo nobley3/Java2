@@ -1,0 +1,11 @@
+package java2prj1.lamda.practice;
+
+public class Predicate_mycooking {
+
+	public static void main(String[] args) {
+		 
+
+		Predicate<String> mycooking = 
+	}
+
+}
